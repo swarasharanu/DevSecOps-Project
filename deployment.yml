@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: netflix-app
-        image: sharanu047/netflix:latest
+        image: sharanu047/netflix:v1
         tag: "29" # uses chart appVersion if not provided
         pullPolicy: Always
 
