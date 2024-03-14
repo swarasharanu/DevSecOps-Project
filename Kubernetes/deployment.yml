@@ -17,5 +17,8 @@ spec:
       containers:
       - name: netflix-app
         image: sharanu047/netflix:latest
+        tag: "29" # uses chart appVersion if not provided
+        pullPolicy: Always
+
         ports:
         - containerPort: 80
